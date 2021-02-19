@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            ul li { /* 부모와 자손 관계 */
+                color: red;
+            }
+
+            #lecture>li { /* 부모와 자식 관계 */
+                border: 1px solid red;
+            }
+            
+            ul, ol {
+                background-color: powderblue;
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+        <ol id="lecture">
+            <li>HTML</li>
+            <li>
+                CSS
+                <ol>
+                    <li>selector</li>
+                    <li>declaration</li>
+                </ol>
+            </li>
+            <li>JavaScript</li>
+        </ol>
+    </body>
+</html>
