@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            a:link {
+                color:black;
+            }
+            a:visited{
+                color:red;
+            } /* visited는 일부 속성만 사용할 수 있다 */
+            a:hover{
+                color: yellow;
+            } /* CSS는 뒤쪽에 있는 선택자를 우선순위 */
+            a:active {
+                color:green;
+            }
+            a:focus {
+                color: white
+            }  /* 가장 뒤에다 설정하는 것이 좋음 */
+            input:focus {
+                background-color: black;
+                color:white;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="https://opentutorials.org">방문함</a>
+        <a href="https://a.a">방문안함</a>
+    </body>
+</html>
