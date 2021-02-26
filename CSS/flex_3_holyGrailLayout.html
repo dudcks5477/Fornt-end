@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            .container {
+                display: flex;
+                flex-direction: column;
+            }
+            header {
+                border-bottom: 1px solid gray;
+                padding-left: 20px;
+            }
+            footer {
+                border-top: 1px solid gray;
+                padding:20px;
+                text-align: center;
+            }
+            .content {
+                display: flex;
+            }
+            .content nav {
+                border-right: 1px solid gray;
+            }
+            .content aside {
+                border-left: 1px solid gray;
+            }
+            nav, aside {
+                flex-basis: 150px;
+                flex-shrink: 0;
+            }
+            main {
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>생활코딩</h1>
+            </header>
+            <section class="content">
+                <nav>
+                    <ul>
+                        <li>html</li>
+                        <li>css</li>
+                        <li>javascript</li>
+                    </ul>
+                </nav>
+                <main>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint molestias 
+                    culpa voluptates aperiam similique sunt ratione doloremque, ut omnis 
+                    itaque iusto eius. Dicta veniam sequi voluptatibus hic rem incidunt ut.
+                </main>
+                <aside>
+                    AD
+                </aside>
+            </section>
+            <footer>
+                <a href="http://opentutorials.org/course/1">홈페이지</a>
+            </footer>
+        </div>
+    </body>
+</html>
