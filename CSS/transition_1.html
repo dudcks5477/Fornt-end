@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            a {
+                font-size: 3rem;
+                display:inline-block;
+                /* 
+                transition-property: font-size transform;
+                transition-duration: 0.1s;
+                transition: all 0.1s;
+                */
+                transition: font-size 1s, transform 0.1s;
+            }
+            a:active {
+                transform:translate(20px, 20px);
+                font-size: 2rem;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="#">Click</a> <!--#을 쓰면 클릭해도 페이지로 들어가지지 않음-->
+    </body>
+</html>
