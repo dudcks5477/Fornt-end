@@ -1,0 +1,9 @@
+<!-- ObjectModel(1/2) : What is objectification? -->
+
+var imgs = document.getElementsByTagName('img');
+imgs
+imgs[0]
+imgs[0].style.width='300px';
+imgs[0].style.width='50px';
+window
+window.alert('Hello world');
