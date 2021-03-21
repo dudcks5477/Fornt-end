@@ -1,7 +1,3 @@
-<html>
-<head>
-</head>
-<body>
 <!-- ObjectModel(1/2) : What is object? -->
 
 var imgs = document.getElementsByTagName('img');
@@ -18,6 +14,3 @@ document <!-- <body>, <img> 등을 제어하는 역할 -->
 DOM -> Document Object Model
 BOM -> Browser Object Model
 JavaScript -> 브라우저, GAS, node.js 등을 제어할 수 있음
-
-</body>
-</html>
