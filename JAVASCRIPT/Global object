@@ -1,0 +1,14 @@
+window
+window.document
+window.navigator
+
+alert('Hello world');
+window.alert('hello world');
+
+a = 1;
+a
+window.a
+
+b = {id:1}
+b.id
+window.b
